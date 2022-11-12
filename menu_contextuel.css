@@ -1,0 +1,38 @@
+#context-menu
+{
+    position: absolute;
+    border: 1px solid #d3d3d3;
+    background-color: aliceblue;
+    padding: 10px 0;
+    z-index: 999;
+    display: none;
+}
+
+#context-menu.active
+{
+    display: initial; /*enleve le display none*/
+}
+
+.menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item
+{
+    padding: 0 10px;
+}
+
+.menu-item:hover
+{
+    background: red;
+}
+
+.menu-separator
+{
+    height: 1px;
+    background-color: aquamarine;
+    margin: 5px 0;
+}
